@@ -5,6 +5,7 @@
   "author": "Ahmed N Khan",
   "license": "MIT",
   "keywords": [],
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ahmednkhan24/athan-shared.git"
@@ -13,7 +14,6 @@
     "url": "https://github.com/ahmednkhan24/athan-shared/issues"
   },
   "homepage": "https://github.com/ahmednkhan24/athan-shared#readme",
-  "main": "index.js",
   "scripts": {
     "prebuild": "rm -rf dist",
     "build": "tsc -p tsconfig.prod.json",
