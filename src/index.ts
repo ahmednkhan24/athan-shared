@@ -1,4 +1,2 @@
-export const myFunction = (name: string): number => {
-  console.log(`hello, ${name}`);
-  return 5;
-};
+export * from './api';
+export * from './types';

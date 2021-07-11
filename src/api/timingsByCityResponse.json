@@ -1,0 +1,85 @@
+{
+  "code": 200,
+  "status": "OK",
+  "data": {
+    "timings": {
+      "Fajr": "03:46",
+      "Sunrise": "05:26",
+      "Dhuhr": "12:56",
+      "Asr": "18:09",
+      "Sunset": "20:26",
+      "Maghrib": "20:26",
+      "Isha": "22:06",
+      "Imsak": "03:36",
+      "Midnight": "00:56"
+    },
+    "date": {
+      "readable": "11 Jul 2021",
+      "timestamp": "1626039044",
+      "hijri": {
+        "date": "01-12-1442",
+        "format": "DD-MM-YYYY",
+        "day": "01",
+        "weekday": {
+          "en": "Al Ahad",
+          "ar": "الاحد"
+        },
+        "month": {
+          "number": 12,
+          "en": "Dhū al-Ḥijjah",
+          "ar": "ذوالحجة"
+        },
+        "year": "1442",
+        "designation": {
+          "abbreviated": "AH",
+          "expanded": "Anno Hegirae"
+        },
+        "holidays": []
+      },
+      "gregorian": {
+        "date": "11-07-2021",
+        "format": "DD-MM-YYYY",
+        "day": "11",
+        "weekday": {
+          "en": "Sunday"
+        },
+        "month": {
+          "number": 7,
+          "en": "July"
+        },
+        "year": "2021",
+        "designation": {
+          "abbreviated": "AD",
+          "expanded": "Anno Domini"
+        }
+      }
+    },
+    "meta": {
+      "latitude": 41.882691985764495,
+      "longitude": -87.62336315997155,
+      "timezone": "America/Chicago",
+      "method": {
+        "id": 2,
+        "name": "Islamic Society of North America (ISNA)",
+        "params": {
+          "Fajr": 15,
+          "Isha": 15
+        }
+      },
+      "latitudeAdjustmentMethod": "ANGLE_BASED",
+      "midnightMode": "STANDARD",
+      "school": "HANAFI",
+      "offset": {
+        "Imsak": 0,
+        "Fajr": 0,
+        "Sunrise": 0,
+        "Dhuhr": 0,
+        "Asr": 0,
+        "Maghrib": 0,
+        "Sunset": 0,
+        "Isha": 0,
+        "Midnight": 0
+      }
+    }
+  }
+}
