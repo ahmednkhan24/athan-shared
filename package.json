@@ -15,6 +15,9 @@
   },
   "homepage": "https://github.com/ahmednkhan24/athan-shared#readme",
   "scripts": {
+    "patch": "npm version patch",
+    "minor": "npm version minor",
+    "major": "npm version major",
     "prebuild": "rm -rf dist",
     "build": "tsc -p tsconfig.prod.json",
     "test": "jest --coverage"
