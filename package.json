@@ -6,6 +6,7 @@
   "license": "MIT",
   "keywords": [],
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ahmednkhan24/athan-shared.git"
