@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
     "target": "es2017",
     "module": "commonjs",
+    "composite": true,
     "esModuleInterop": true,
-    "outDir": "dist",
     "resolveJsonModule": true,
     "allowJs": false
   },
