@@ -10,7 +10,7 @@ export const timingsApi = axios.create({
   baseURL: 'https://api.aladhan.com/v1',
 });
 
-const fetchTimings = async (
+export const fetchTimings = async (
   endpoint: string,
   params: FetchTimingsByCoordsParams | FetchTimingsByCityParams
 ): Promise<Timings | null> => {
