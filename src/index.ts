@@ -1,4 +1,4 @@
 export const myFunction = (name: string): number => {
   console.log(`hello, ${name}`);
-  return 4;
+  return 5;
 };
